@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibleNIVTranslationLibrary", "BibleNIVTranslationLibrary.csproj", "{239FD211-73E8-47E7-A9E2-5BCD397E322E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{239FD211-73E8-47E7-A9E2-5BCD397E322E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239FD211-73E8-47E7-A9E2-5BCD397E322E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239FD211-73E8-47E7-A9E2-5BCD397E322E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239FD211-73E8-47E7-A9E2-5BCD397E322E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E4C6D6A-B43A-4B1B-A6A4-0B1506368A5F}
+	EndGlobalSection
+EndGlobal
