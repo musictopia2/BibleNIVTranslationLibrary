@@ -1,83 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<Version>7.0.1</Version>
+    <Version>9.0.1</Version>
   </PropertyGroup>
-	<ItemGroup>
-		<PackageReference Include="CommonBasicLibraries" Version="8.0.1" />
-		<PackageReference Include="JsonDeserializeResourceSourceGenerator" Version="1.0.3" PrivateAssets="all" />
-	</ItemGroup>
-	<ItemGroup>
-		<AdditionalFiles Include="Resources\NIV 1 Chronicles.json" />
-		<AdditionalFiles Include="Resources\NIV 1 Corinthians.json" />
-		<AdditionalFiles Include="Resources\NIV 1 John.json" />
-		<AdditionalFiles Include="Resources\NIV 1 Kings.json" />
-		<AdditionalFiles Include="Resources\NIV 1 Peter.json" />
-		<AdditionalFiles Include="Resources\NIV 1 Samuel.json" />
-		<AdditionalFiles Include="Resources\NIV 1 Thessalonians.json" />
-		<AdditionalFiles Include="Resources\NIV 1 Timothy.json" />
-		<AdditionalFiles Include="Resources\NIV 2 Chronicles.json" />
-		<AdditionalFiles Include="Resources\NIV 2 Corinthians.json" />
-		<AdditionalFiles Include="Resources\NIV 2 John.json" />
-		<AdditionalFiles Include="Resources\NIV 2 Kings.json" />
-		<AdditionalFiles Include="Resources\NIV 2 Peter.json" />
-		<AdditionalFiles Include="Resources\NIV 2 Samuel.json" />
-		<AdditionalFiles Include="Resources\NIV 2 Thessalonians.json" />
-		<AdditionalFiles Include="Resources\NIV 2 Timothy.json" />
-		<AdditionalFiles Include="Resources\NIV 3 John.json" />
-		<AdditionalFiles Include="Resources\NIV Acts.json" />
-		<AdditionalFiles Include="Resources\NIV Amos.json" />
-		<AdditionalFiles Include="Resources\NIV Colossians.json" />
-		<AdditionalFiles Include="Resources\NIV Daniel.json" />
-		<AdditionalFiles Include="Resources\NIV Deuteronomy.json" />
-		<AdditionalFiles Include="Resources\NIV Ecclesiastes.json" />
-		<AdditionalFiles Include="Resources\NIV Ephesians.json" />
-		<AdditionalFiles Include="Resources\NIV Esther.json" />
-		<AdditionalFiles Include="Resources\NIV Exodus.json" />
-		<AdditionalFiles Include="Resources\NIV Ezekiel.json" />
-		<AdditionalFiles Include="Resources\NIV Ezra.json" />
-		<AdditionalFiles Include="Resources\NIV Galatians.json" />
-		<AdditionalFiles Include="Resources\NIV Genesis.json" />
-		<AdditionalFiles Include="Resources\NIV Habakkuk.json" />
-		<AdditionalFiles Include="Resources\NIV Haggai.json" />
-		<AdditionalFiles Include="Resources\NIV Hebrews.json" />
-		<AdditionalFiles Include="Resources\NIV Hosea.json" />
-		<AdditionalFiles Include="Resources\NIV Isaiah.json" />
-		<AdditionalFiles Include="Resources\NIV James.json" />
-		<AdditionalFiles Include="Resources\NIV Jeremiah.json" />
-		<AdditionalFiles Include="Resources\NIV Job.json" />
-		<AdditionalFiles Include="Resources\NIV Joel.json" />
-		<AdditionalFiles Include="Resources\NIV John.json" />
-		<AdditionalFiles Include="Resources\NIV Jonah.json" />
-		<AdditionalFiles Include="Resources\NIV Joshua.json" />
-		<AdditionalFiles Include="Resources\NIV Jude.json" />
-		<AdditionalFiles Include="Resources\NIV Judges.json" />
-		<AdditionalFiles Include="Resources\NIV Lamentations.json" />
-		<AdditionalFiles Include="Resources\NIV Leviticus.json" />
-		<AdditionalFiles Include="Resources\NIV Luke.json" />
-		<AdditionalFiles Include="Resources\NIV Malachi.json" />
-		<AdditionalFiles Include="Resources\NIV Mark.json" />
-		<AdditionalFiles Include="Resources\NIV Matthew.json" />
-		<AdditionalFiles Include="Resources\NIV Micah.json" />
-		<AdditionalFiles Include="Resources\NIV Nahum.json" />
-		<AdditionalFiles Include="Resources\NIV Nehemiah.json" />
-		<AdditionalFiles Include="Resources\NIV Numbers.json" />
-		<AdditionalFiles Include="Resources\NIV Obadiah.json" />
-		<AdditionalFiles Include="Resources\NIV Philemon.json" />
-		<AdditionalFiles Include="Resources\NIV Philippians.json" />
-		<AdditionalFiles Include="Resources\NIV Proverbs.json" />
-		<AdditionalFiles Include="Resources\NIV Psalm.json" />
-		<AdditionalFiles Include="Resources\NIV Revelation.json" />
-		<AdditionalFiles Include="Resources\NIV Romans.json" />
-		<AdditionalFiles Include="Resources\NIV Ruth.json" />
-		<AdditionalFiles Include="Resources\NIV Song of Solomon.json" />
-		<AdditionalFiles Include="Resources\NIV Titus.json" />
-		<AdditionalFiles Include="Resources\NIV Zechariah.json" />
-		<AdditionalFiles Include="Resources\NIV Zephaniah.json" />
-	</ItemGroup>
-		
-	
+  <ItemGroup>
+    <PackageReference Include="CommonBasicLibraries" Version="9.0.1" />
+    <PackageReference Include="JsonDeserializeResourceSourceGenerator" Version="1.0.3" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="Resources\NIV 1 Chronicles.json" />
+    <AdditionalFiles Include="Resources\NIV 1 Corinthians.json" />
+    <AdditionalFiles Include="Resources\NIV 1 John.json" />
+    <AdditionalFiles Include="Resources\NIV 1 Kings.json" />
+    <AdditionalFiles Include="Resources\NIV 1 Peter.json" />
+    <AdditionalFiles Include="Resources\NIV 1 Samuel.json" />
+    <AdditionalFiles Include="Resources\NIV 1 Thessalonians.json" />
+    <AdditionalFiles Include="Resources\NIV 1 Timothy.json" />
+    <AdditionalFiles Include="Resources\NIV 2 Chronicles.json" />
+    <AdditionalFiles Include="Resources\NIV 2 Corinthians.json" />
+    <AdditionalFiles Include="Resources\NIV 2 John.json" />
+    <AdditionalFiles Include="Resources\NIV 2 Kings.json" />
+    <AdditionalFiles Include="Resources\NIV 2 Peter.json" />
+    <AdditionalFiles Include="Resources\NIV 2 Samuel.json" />
+    <AdditionalFiles Include="Resources\NIV 2 Thessalonians.json" />
+    <AdditionalFiles Include="Resources\NIV 2 Timothy.json" />
+    <AdditionalFiles Include="Resources\NIV 3 John.json" />
+    <AdditionalFiles Include="Resources\NIV Acts.json" />
+    <AdditionalFiles Include="Resources\NIV Amos.json" />
+    <AdditionalFiles Include="Resources\NIV Colossians.json" />
+    <AdditionalFiles Include="Resources\NIV Daniel.json" />
+    <AdditionalFiles Include="Resources\NIV Deuteronomy.json" />
+    <AdditionalFiles Include="Resources\NIV Ecclesiastes.json" />
+    <AdditionalFiles Include="Resources\NIV Ephesians.json" />
+    <AdditionalFiles Include="Resources\NIV Esther.json" />
+    <AdditionalFiles Include="Resources\NIV Exodus.json" />
+    <AdditionalFiles Include="Resources\NIV Ezekiel.json" />
+    <AdditionalFiles Include="Resources\NIV Ezra.json" />
+    <AdditionalFiles Include="Resources\NIV Galatians.json" />
+    <AdditionalFiles Include="Resources\NIV Genesis.json" />
+    <AdditionalFiles Include="Resources\NIV Habakkuk.json" />
+    <AdditionalFiles Include="Resources\NIV Haggai.json" />
+    <AdditionalFiles Include="Resources\NIV Hebrews.json" />
+    <AdditionalFiles Include="Resources\NIV Hosea.json" />
+    <AdditionalFiles Include="Resources\NIV Isaiah.json" />
+    <AdditionalFiles Include="Resources\NIV James.json" />
+    <AdditionalFiles Include="Resources\NIV Jeremiah.json" />
+    <AdditionalFiles Include="Resources\NIV Job.json" />
+    <AdditionalFiles Include="Resources\NIV Joel.json" />
+    <AdditionalFiles Include="Resources\NIV John.json" />
+    <AdditionalFiles Include="Resources\NIV Jonah.json" />
+    <AdditionalFiles Include="Resources\NIV Joshua.json" />
+    <AdditionalFiles Include="Resources\NIV Jude.json" />
+    <AdditionalFiles Include="Resources\NIV Judges.json" />
+    <AdditionalFiles Include="Resources\NIV Lamentations.json" />
+    <AdditionalFiles Include="Resources\NIV Leviticus.json" />
+    <AdditionalFiles Include="Resources\NIV Luke.json" />
+    <AdditionalFiles Include="Resources\NIV Malachi.json" />
+    <AdditionalFiles Include="Resources\NIV Mark.json" />
+    <AdditionalFiles Include="Resources\NIV Matthew.json" />
+    <AdditionalFiles Include="Resources\NIV Micah.json" />
+    <AdditionalFiles Include="Resources\NIV Nahum.json" />
+    <AdditionalFiles Include="Resources\NIV Nehemiah.json" />
+    <AdditionalFiles Include="Resources\NIV Numbers.json" />
+    <AdditionalFiles Include="Resources\NIV Obadiah.json" />
+    <AdditionalFiles Include="Resources\NIV Philemon.json" />
+    <AdditionalFiles Include="Resources\NIV Philippians.json" />
+    <AdditionalFiles Include="Resources\NIV Proverbs.json" />
+    <AdditionalFiles Include="Resources\NIV Psalm.json" />
+    <AdditionalFiles Include="Resources\NIV Revelation.json" />
+    <AdditionalFiles Include="Resources\NIV Romans.json" />
+    <AdditionalFiles Include="Resources\NIV Ruth.json" />
+    <AdditionalFiles Include="Resources\NIV Song of Solomon.json" />
+    <AdditionalFiles Include="Resources\NIV Titus.json" />
+    <AdditionalFiles Include="Resources\NIV Zechariah.json" />
+    <AdditionalFiles Include="Resources\NIV Zephaniah.json" />
+  </ItemGroup>
 </Project>
